@@ -26,6 +26,15 @@ Text Domain: platz
          url('font/socialico-webfont.svg#socialicoregular') format('svg');
 }
 
+
+@font-face {
+    font-family: 'theboldfont';
+	src:url('font/theboldfont.ttf');
+    src:url('font/theboldfont-webfont.woff') format('woff')
+		url('font/theboldfont-webfont.woff2') format('woff2')
+		url('font/theboldfont.ttf') format('truetype');
+}
+
 @font-face {
     font-family: 'socialico_plusregular';
     src: url('font/socialico_plus-webfont.eot');
@@ -126,7 +135,7 @@ body,html{
 .logo{
 	position:absolute;
     margin-top:13.5px;
-	left:15px;
+	left:17px;
 }
 
 .logo img{
@@ -171,8 +180,8 @@ body,html{
 .top-rated,.recent,.oldies{
 	float:left;
 	text-align:left;
-	font-family: 'Roboto',sans-serif;
-    font-size: 13px;
+	font-family: 'theboldfont';
+    font-size: 30px;
 	height:40px;
 	line-height:40px;
     margin-top:10px;
